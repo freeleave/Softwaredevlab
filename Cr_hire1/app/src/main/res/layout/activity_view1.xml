@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/activity_main" />
+
+
+    <RelativeLayout
+        android:id="@+id/onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aa"
+        android:clipToOutline="true"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="center">
+
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/alphards"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="2dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/alphard" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="508dp"
+            android:layout_marginEnd="0dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/suv" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/Suvs"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginTop="283dp"
+            android:layout_marginEnd="-4dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/yy" />
+
+        <TextView
+            android:id="@+id/login5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="76dp"
+
+            android:layout_marginTop="19dp"
+            android:gravity="center"
+            android:lineSpacingExtra="6sp"
+            android:text="7 seaters"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <TextView
+            android:id="@+id/login6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="82dp"
+
+            android:layout_marginTop="460dp"
+            android:gravity="center"
+            android:lineSpacingExtra="6sp"
+            android:text="SUVs"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <TextView
+            android:id="@+id/login7"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="79dp"
+
+            android:layout_marginTop="246dp"
+            android:gravity="center"
+            android:lineSpacingExtra="6sp"
+            android:text="5 SEATERS"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

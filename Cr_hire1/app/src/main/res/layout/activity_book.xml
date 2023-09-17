@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/activity_main" />
+
+
+    <RelativeLayout
+        android:id="@+id/onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aa"
+        android:clipToOutline="true"
+        app:layout_anchorGravity="center"
+        app:layout_anchor="@+id/include2">
+
+
+        <TextView
+
+            android:layout_width="409dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="173dp"
+            android:gravity="start"
+            android:lineSpacingExtra="6sp"
+            android:text="Select Booking Option"
+            android:textAlignment="viewStart"
+            android:textColor="#040303"
+            android:textSize="34sp"
+            android:translationY="-3sp"
+
+            app:layout_anchorGravity="center" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="448dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="221dp"
+            android:background="#DD120C0C"
+            android:gravity="center_horizontal"
+
+            android:lineSpacingExtra="6sp"
+            android:radius="40dp"
+            android:text="Book via call"
+
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:translationY="-3sp"
+            app:backgroundTint="#131313" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="371dp"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="371dp"
+            android:background="#DD120C0C"
+            android:gravity="center_horizontal"
+
+            android:lineSpacingExtra="6sp"
+            android:radius="40dp"
+            android:text="Book online"
+
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:translationY="-3sp"
+            app:backgroundTint="#131313" />
+
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

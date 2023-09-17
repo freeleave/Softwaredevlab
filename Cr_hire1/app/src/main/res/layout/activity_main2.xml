@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboarding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xx"
+
+    android:clipToOutline="true">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login1"
+        android:layout_width="310dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="45dp"
+        android:background="#120C0C"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="6sp"
+        android:radius="40dp"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:translationY="-3sp" />
+
+    <TextView
+        android:id="@+id/need_a_rent"
+        android:layout_width="321dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+
+        android:layout_marginTop="342dp"
+        android:gravity="start"
+        android:lineSpacingExtra="6sp"
+        android:text="Already have an account?"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:translationY="-3sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+
+        android:layout_marginTop="460dp"
+
+
+        android:backgroundTint="#00FFFFFF"
+        android:gravity="start"
+        android:lineSpacingExtra="6sp"
+        android:text="LOGIN?"
+        android:textAlignment="viewStart"
+        android:textColor="#F8F0F0"
+        android:textSize="16sp"
+        android:translationY="-3sp" />
+
+
+</RelativeLayout>

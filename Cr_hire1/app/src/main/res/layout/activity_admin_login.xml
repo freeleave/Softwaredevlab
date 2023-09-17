@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aa"
+        android:clipToOutline="true">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginTop="133dp"
+            android:gravity="start"
+            android:lineSpacingExtra="6sp"
+            android:hint="Name"
+            android:textAlignment="viewStart"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <EditText
+            android:id="@+id/logg"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+
+            android:layout_marginTop="175dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="6sp"
+            android:hint="Enter Email"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="298dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="6sp"
+            android:hint="Enter Password"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <TextView
+            android:id="@+id/license"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+
+            android:layout_marginTop="245dp"
+            android:gravity="start"
+            android:lineSpacingExtra="6sp"
+            android:hint="Password"
+            android:textAlignment="viewStart"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login1"
+            android:layout_width="312dp"
+            android:layout_height="62dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="584dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="188dp"
+            android:background="#DD6E4848"
+
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="6sp"
+            android:radius="40dp"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="#F40707"
+            android:textSize="34sp"
+            android:translationY="10sp" />
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

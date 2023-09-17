@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200326124144",
+    "project_id": "crhire-2952a",
+    "storage_bucket": "crhire-2952a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200326124144:android:0dd600e9da693ff4d65ab5",
+        "android_client_info": {
+          "package_name": "com.example.cr_hire1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200326124144-06h8t52mpc0766bht4krg203c1hvf41r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjYjWSqeyYqpmkYrvZ8L33sz2Gn7p7wok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200326124144-06h8t52mpc0766bht4krg203c1hvf41r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

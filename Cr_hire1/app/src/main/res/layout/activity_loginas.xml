@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aa"
+        android:clipToOutline="true">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login2"
+            android:layout_width="312dp"
+            android:layout_height="62dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="228dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="188dp"
+            android:background="#DD120D0D"
+
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="6sp"
+            android:radius="40dp"
+            android:text="LOGIN AS USER"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="34sp"
+            android:translationY="10sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login1"
+            android:layout_width="312dp"
+            android:layout_height="62dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="188dp"
+            android:background="#DD120D0D"
+
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="6sp"
+            android:radius="40dp"
+            android:text="LOGIN AS ADMIN"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="34sp"
+            android:translationY="10sp" />
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

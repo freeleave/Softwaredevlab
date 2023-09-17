@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/activity_main" />
+
+
+    <RelativeLayout
+        android:id="@+id/onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aa"
+        android:clipToOutline="true"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="center">
+
+
+        <TextView
+            android:id="@+id/logg"
+            android:layout_width="405dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:lineSpacingExtra="6sp"
+            android:text="five seaters...70 usd "
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <EditText
+            android:id="@+id/duration"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dp"
+
+            android:layout_marginTop="495dp"
+            android:gravity="center_horizontal"
+            android:hint="duration"
+            android:lineSpacingExtra="6sp"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+
+            android:layout_marginTop="388dp"
+            android:gravity="center_horizontal"
+            android:hint="pickup location"
+            android:lineSpacingExtra="6sp"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <EditText
+            android:id="@+id/license"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="7dp"
+
+            android:layout_marginTop="274dp"
+            android:gravity="center_horizontal"
+            android:hint="Enter License Number"
+            android:lineSpacingExtra="6sp"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <TextView
+            android:id="@+id/license1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="55dp"
+
+            android:layout_marginTop="225dp"
+            android:gravity="start"
+            android:lineSpacingExtra="6sp"
+            android:text="License number"
+            android:textAlignment="viewStart"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <TextView
+            android:id="@+id/login5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="76dp"
+
+            android:layout_marginTop="451dp"
+            android:gravity="start"
+            android:lineSpacingExtra="6sp"
+            android:text="enter duration"
+            android:textAlignment="viewStart"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationY="-3sp" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="578dp"
+            android:layout_marginEnd="93dp"
+            android:layout_marginBottom="94dp"
+            android:background="#DD120C0C"
+            android:gravity="center_horizontal"
+
+            android:lineSpacingExtra="6sp"
+            android:radius="40dp"
+            android:text="Book"
+
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:translationY="-3sp"
+            app:backgroundTint="#131313" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+
+        android:layout_marginTop="173dp"
+        android:gravity="start"
+        android:lineSpacingExtra="6sp"
+        android:text="Email Pickup location"
+        android:textAlignment="viewStart"
+        android:textColor="#040303"
+        android:textSize="20sp"
+        android:translationY="-3sp"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

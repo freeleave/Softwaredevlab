@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/activity_main" />
+
+
+    <RelativeLayout
+        android:id="@+id/onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aa"
+        android:clipToOutline="true"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="center">
+
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="409dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="2dp"
+
+        android:layout_marginTop="173dp"
+        android:gravity="center"
+        android:lineSpacingExtra="6sp"
+        android:text="successfully booked"
+        android:textAlignment="center"
+        android:textColor="#040303"
+        android:textSize="34sp"
+        android:translationY="-3sp"
+
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="center" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboarding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc"
+    android:clipToOutline="true">
+
+
+    <TextView
+        android:id="@+id/need_a_rent"
+        android:layout_width="327dp"
+        android:layout_height="264dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+
+        android:layout_marginTop="102dp"
+        android:gravity="start"
+        android:lineSpacingExtra="6sp"
+        android:text="NEED A RENTAL CAR? WE'VE GOT YOU!"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:translationY="-3sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login1"
+        android:layout_width="327dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="407dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="276dp"
+        android:background="#DD120C0C"
+
+
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="6sp"
+        android:radius="40dp"
+        android:text="Let's Go!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:translationY="-3sp" />
+
+
+</RelativeLayout>
